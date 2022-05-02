@@ -1,0 +1,8 @@
+﻿  源.cpp
+源.obj : error LNK2019: 无法解析的外部符号 "void __cdecl InitBoard(char (* const)[3],int,int)" (?InitBoard@@YAXQEAY02DHH@Z)，函数 "void __cdecl game(void)" (?game@@YAXXZ) 中引用了该符号
+    已定义且可能匹配的符号上的提示:
+      InitBoard
+源.obj : error LNK2019: 无法解析的外部符号 "void __cdecl DisplayBoard(char (* const)[3],int,int)" (?DisplayBoard@@YAXQEAY02DHH@Z)，函数 "void __cdecl game(void)" (?game@@YAXXZ) 中引用了该符号
+    已定义且可能匹配的符号上的提示:
+      DisplayBoard
+E:\2022版本3-16\三子棋\x64\Debug\三子棋.exe : fatal error LNK1120: 2 个无法解析的外部命令
